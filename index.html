@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Fernandez</title>
+    <style>
+        :root {
+            --primary-color: #4285F4;
+            --secondary-color: #34A853;
+            --accent-color: #FBBC05;
+            --background-color: #FFFFFF;
+            --section-bg-color: #F8F9FA;
+            --text-color: #202124;
+            --light-gray: #E8EAED;
+        }
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--background-color);
+        }
+        header {
+            background-color: var(--primary-color);
+            color: var(--background-color);
+            text-align: center;
+            padding: 2em 0;
+            margin-bottom: 2em;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 500;
+        }
+        nav {
+            background-color: var(--light-gray);
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: var(--primary-color);
+        }
+        h2, h3 {
+            color: var(--primary-color);
+        }
+        .section {
+            background-color: var(--section-bg-color);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        }
+        .section:hover {
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        }
+        .job {
+            margin-bottom: 1.5em;
+            border-left: 3px solid var(--secondary-color);
+            padding-left: 15px;
+        }
+        .job h3 {
+            color: var(--secondary-color);
+            margin-bottom: 0.5em;
+        }
+        .project {
+            margin-bottom: 1.5em;
+            border-left: 3px solid var(--accent-color);
+            padding-left: 15px;
+            cursor: pointer;
+        }
+        .project h3 {
+            color: var(--accent-color);
+            margin-bottom: 0.5em;
+        }
+        .project-details {
+            display: none;
+            background-color: var(--light-gray);
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: var(--light-gray);
+            color: var(--text-color);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+        .skill:hover {
+            background-color: var(--accent-color);
+            transform: scale(1.05);
+        }
+        #back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-color);
+            color: var(--background-color);
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: none;
+            transition: background-color 0.3s ease;
+        }
+        #back-to-top:hover {
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Joseph Fernandez</h1>
+        <p>Game Programmer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="summary" class="section">
+            <p>Lead Game Programmer with 10+ years of experience in computer graphics, XR, and game development. Managed teams of
+ up to 10, developed high-fidelity tools, and optimized workflows, increasing efficiency by 30%. Proficient in multiple
+ programming languages and game engines, with experience in multithreading and multiplayer systems.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Lead Game Programmer</h3>
+                <p><em>Bumo3dr, Chennai</em><span style="float: right;"><em>June 2019 - Present</em></span></p>
+                <ul>
+                    <li>Managed & led medium sized team of programmers and designers</li>
+                    <li>Built technical architecture for multiple projects in computer graphics and extended reality</li>
+                    <li>Streamlined 3D pipeline workflow for technical artists, programmers, and designers</li>
+                    <li>Created new tools and frameworks for product development</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Senior Game Programmer - Bumo3dr, Chennai</h3>
+                <p><em>Bumo3dr, Chennai</em><span style="float: right;"><em>June 2019 - Present</em></span></p>
+                <ul>
+                    <li>Worked on multiple applications involving 3D computer graphics, XR</li>
+                    <li>Developed games and 3D applications for visualizing patented tech under NDA</li>
+                    <li>Created high fidelity graphic tools for Industry 4.0 companies</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Associate Software Engineer - Electronic Arts, Hyderabad</h3>
+                <p><em>Bumo3dr, Chennai</em><span style="float: right;"><em>June 2019 - Present</em></span></p>
+                <ul>
+                    <li>Worked in the iOS Live services team</li>
+                    <li>Ported projects from iOS to EAMT engine (Objective-C to C++)</li>
+                    <li>Developed and maintained several in-house tools</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div id="projectsContainer">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">C++</span>
+                <span class="skill">C#</span>
+                <span class="skill">Python</span>
+                <span class="skill">Unreal Engine</span>
+                <span class="skill">Unity3D</span>
+                <span class="skill">OpenGL</span>
+                <span class="skill">DirectX</span>
+                <span class="skill">AR/VR/MR Development</span>
+                <span class="skill">Game Development</span>
+                <span class="skill">3D Graphics</span>
+                <span class="skill">Shader Programming</span>
+                <span class="skill">Cross-platform Development</span>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>PG-Diploma Game Programming</strong> - ICAT, Chennai (June 2011 - May 2012)</li>
+                <li><strong>B-Tech Electronics & Communication</strong> - College Of Engineering, Trivandrum (June 2006 - April 2010)</li>
+            </ul>
+        </section>
+    </main>
+
+    <a href="#" id="back-to-top">Top</a>
+
+	<script src="main.js"></script>
+</body>
+</html>
