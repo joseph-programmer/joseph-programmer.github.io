@@ -4,7 +4,7 @@ const resumeData = {
         name: "Joseph Fernandez",
         title: "Gameplay Programmer"
     },
-    summary: "Experienced Lead Game Programmer with over a decade in computer graphics, XR, and game development. Successfully led teams of up to 10 members, creating advanced tools and optimizing workflows to boost efficiency by 30%. Proficient in various programming languages and game engines, with specialized expertise in multithreading and multiplayer systems.",
+    summary: "Developer with 10+ years of experience in game programming, real-time visualization, and XR applications. ",
     experience: [
 	 {
             title: "Gameplay Programmer",
