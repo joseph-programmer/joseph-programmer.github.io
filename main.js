@@ -6,6 +6,16 @@ const resumeData = {
     },
     summary: "Experienced Lead Game Programmer with over a decade in computer graphics, XR, and game development. Successfully led teams of up to 10 members, creating advanced tools and optimizing workflows to boost efficiency by 30%. Proficient in various programming languages and game engines, with specialized expertise in multithreading and multiplayer systems.",
     experience: [
+	 {
+            title: "Gameplay Programmer",
+            company: "NextPlayerGames, USA",
+            date: "2024 - Present",
+            responsibilities: [
+                "Implemented replicated weapon mechanics in Unreal Engine, including ammo handling, hit detection, and recoil. ",
+                "Developed replicated systems for session management, player interactions, and real-time data synchronization. ",
+		"Developed multiplayer inventory and NPC replication with AI-driven behaviors in Unreal Engine."
+            ]
+        },
         {
             title: "Lead Game Programmer",
             company: "BuMo3DR, Chennai, India",
@@ -13,6 +23,8 @@ const resumeData = {
             responsibilities: [
                 "Led teams of 10+ programmers and designers on 5+ projects involving computer graphics and extended reality, ensuring timely delivery and high-quality outcomes.",
                 "Developed a 3D Lab Designer using Unreal Engine and C++, enabling real-time visualization of architectural plans across PC, AR, VR, and MR platforms, adopted by over 10 clients.",
+		"Engineered core systems for room creation, wall structures, traffic simulation, and lab automation. ",
+		"Integrated real-time ray tracing, Nanite, and advanced global illumination in collaboration with artists.",
                 "Engineered new tools and frameworks with C++, C#, and Python, enhancing product development efficiency by 30%.",
                 "Architected technical solutions for various projects, streamlining 3D pipeline workflows for technical artists, programmers, and designers.",
                 "Mentored more than 5 junior developers through weekly code reviews and monthly knowledge transfer sessions.",
@@ -25,6 +37,7 @@ const resumeData = {
             date: "May 2018 - Oct 2021",
             responsibilities: [
                 "Developed applications involving 3D computer graphics and XR for diverse industries, delivering 10+ projects that improved client productivity and engagement.",
+		"Designed and implemented data visualization applications, utilizing OGDF for advanced graph rendering.",
                 "Engineered VR and AR applications for product visualization, training, and simulation purposes.",
                 "Integrated ARKit, Vuforia, and MRTK, streamlining XR project development and reducing integration time by 20%, leading to faster deployment of features.",
                 "Wrote cross-platform core libraries and templates to improve code re-usability across projects by 50%.",
