@@ -388,7 +388,7 @@ function generateHeader() {
     header.innerHTML = `
         <h1>${resumeData.header.name}</h1>
         <p>${resumeData.header.title}</p>
-        <p class="contact-links"><a href="mailto:${resumeData.header.email}">${resumeData.header.email}</a><a href="tel:+917358437317">${resumeData.header.phone}</a><a href="https://github.com/joseph-programmer" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        <p class="contact-links"><a href="mailto:${resumeData.header.email}">${resumeData.header.email}</a><a href="tel:+917358437317">${resumeData.header.phone}</a></p>
     `;
 }
 
