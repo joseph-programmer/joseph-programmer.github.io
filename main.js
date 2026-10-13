@@ -30,7 +30,8 @@ const resumeData = {
                 "Implemented replicated weapon mechanics, including ammo handling, hit detection, and recoil.",
                 "Developed replicated session management, player interactions, and real-time data synchronization.",
                 "Built multiplayer inventory, NPC replication, and AI-driven behaviors.",
-                "Created data-driven character customization using skeletal mesh merging."
+                "Developed a character customizer and a skeletal mesh merging tool with morph support.",
+                "Designed a graph-based dialogue system with conditions."
             ],
             tools: "Unreal Engine 5, C++, Blueprints, Multiplayer Replication, Sessions, AI Perception, EQS, Epic Online Services"
         },
@@ -103,14 +104,16 @@ const resumeData = {
             tools: "Unreal Engine 5, C++, Blueprints, Cesium ion, Mass Entity, Pixel Streaming"
         },
         {
-            title: "Multiplayer Gameplay Systems",
+            title: "Multiplayer Gameplay & Character Systems",
             company: "NextPlayerGames",
             date: "Oct 2024 - Oct 2025",
             details: [
                 "Implemented replicated weapon mechanics, including ammo handling, hit detection, and recoil.",
                 "Developed replicated session management, player interactions, and real-time data synchronization.",
                 "Built multiplayer inventory and NPC replication with AI-driven behaviors.",
-                "Created data-driven character customization using skeletal mesh merging for optimized performance."
+                "Developed a data-driven character customizer.",
+                "Built a skeletal mesh merging tool with morph support.",
+                "Implemented a graph-based dialogue system with conditions."
             ],
             tools: "Unreal Engine 5, C++, Blueprints, Epic Online Services, AI Perception, EQS"
         },
