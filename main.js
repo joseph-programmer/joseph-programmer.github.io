@@ -6,7 +6,7 @@ const resumeData = {
         email: "joseph3713@gmail.com",
         phone: "+91 7358437317"
     },
-    summary: "Developer with 10+ years of experience spanning game development, XR (AR/VR/MR), multiplayer systems, and large-scale real-time visualization.",
+    summary: "Developer with 12+ years of experience spanning game development, XR (AR/VR/MR), multiplayer systems, and large-scale real-time visualization.",
     experience: [
         {
             title: "Associate Tech Lead - Unreal Developer",
