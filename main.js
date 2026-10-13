@@ -87,9 +87,13 @@ const resumeData = {
             company: "Dbiz.ai",
             date: "Nov 2025 - Present",
             details: [
-                "Built data-driven level streaming for city-scale environments.",
-                "Led mass crowd simulation and created a procedural road authoring tool.",
-                "Profiled the environment and reduced VRAM use by 63%, RAM use by 67%, and build size by 20%."
+                "Built a data-driven level streaming framework with data assets, allowing new streaming sectors to be added without code changes.",
+                "Implemented level streaming for Abu Dhabi and Dubai digital twin environments to improve traversal across city-scale assets.",
+                "Led mass crowd simulation for city-scale scenes, including population density, movement, and traffic behavior.",
+                "Created a procedural road tool in Unreal Engine 5 to speed up infrastructure and environment authoring.",
+                "Profiled and optimized resource usage, reducing VRAM by 63%, RAM by 67%, and build size by 20%.",
+                "Coordinated Perforce repository structure, branching strategy, Git-to-Perforce migration, and CI/CD setup with architecture and DevOps teams.",
+                "Designed feature architecture and reviewed code for quality, consistency, and alignment with project standards."
             ],
             tools: "Unreal Engine 5, C++, Blueprints, Cesium ion, Mass Entity, Pixel Streaming"
         },
@@ -98,8 +102,10 @@ const resumeData = {
             company: "NextPlayerGames",
             date: "Oct 2024 - Oct 2025",
             details: [
-                "Implemented replicated weapons, inventory, sessions, player interactions, and NPCs.",
-                "Built AI behaviors and data-driven character customization using skeletal mesh merging."
+                "Implemented replicated weapon mechanics, including ammo handling, hit detection, and recoil.",
+                "Developed replicated session management, player interactions, and real-time data synchronization.",
+                "Built multiplayer inventory and NPC replication with AI-driven behaviors.",
+                "Created data-driven character customization using skeletal mesh merging for optimized performance."
             ],
             tools: "Unreal Engine 5, C++, Blueprints, Epic Online Services, AI Perception, EQS"
         },
