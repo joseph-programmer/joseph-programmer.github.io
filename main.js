@@ -16,6 +16,7 @@ const resumeData = {
                 "Built a data-driven level streaming framework using data assets, so new sectors can be added without code changes.",
                 "Implemented level streaming for Abu Dhabi and Dubai digital twins and led mass crowd simulation for city-scale scenes.",
                 "Created a procedural road tool in Unreal Engine 5 for infrastructure and environment authoring.",
+                "Created collision creation, level optimization, mesh decimation, and mesh instancing tools.",
                 "Reduced VRAM use by 63%, RAM use by 67%, and build size by 20% through profiling and optimization.",
                 "Coordinated Perforce repository structure, branching, Git-to-Perforce migration, and CI/CD setup; reviewed feature architecture and code."
             ],
@@ -91,6 +92,10 @@ const resumeData = {
                 "Implemented level streaming for Abu Dhabi and Dubai digital twin environments to improve traversal across city-scale assets.",
                 "Led mass crowd simulation for city-scale scenes, including population density, movement, and traffic behavior.",
                 "Created a procedural road tool in Unreal Engine 5 to speed up infrastructure and environment authoring.",
+                "Created a collision creation tool.",
+                "Created a level optimization tool.",
+                "Created a mesh decimation tool.",
+                "Created a mesh instancing tool.",
                 "Profiled and optimized resource usage, reducing VRAM by 63%, RAM by 67%, and build size by 20%.",
                 "Coordinated Perforce repository structure, branching strategy, Git-to-Perforce migration, and CI/CD setup with architecture and DevOps teams.",
                 "Designed feature architecture and reviewed code for quality, consistency, and alignment with project standards."
