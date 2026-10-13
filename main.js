@@ -2,73 +2,107 @@
 const resumeData = {
     header: {
         name: "Joseph Fernandez",
-        title: "Gameplay Programmer"
+        title: "Unreal Developer | Game Development, XR & Digital Twins",
+        email: "joseph3713@gmail.com",
+        phone: "+91 7358437317"
     },
-    summary: "Developer with 10+ years of experience in game programming, real-time visualization, and XR applications. ",
+    summary: "Developer with 10+ years of experience spanning game development, XR (AR/VR/MR), multiplayer systems, and large-scale real-time visualization.",
     experience: [
-	 {
-            title: "Gameplay Programmer",
-            company: "NextPlayerGames, USA",
-            date: "2024 - Present",
+        {
+            title: "Associate Tech Lead - Unreal Developer",
+            company: "Dbiz.ai, Kochi",
+            date: "Nov 2025 - Present",
             responsibilities: [
-                "Implemented replicated weapon mechanics in Unreal Engine, including ammo handling, hit detection, and recoil. ",
-                "Developed replicated systems for session management, player interactions, and real-time data synchronization. ",
-		"Developed multiplayer inventory and NPC replication with AI-driven behaviors in Unreal Engine."
-            ]
+                "Built a data-driven level streaming framework using data assets, so new sectors can be added without code changes.",
+                "Implemented level streaming for Abu Dhabi and Dubai digital twins and led mass crowd simulation for city-scale scenes.",
+                "Created a procedural road tool in Unreal Engine 5 for infrastructure and environment authoring.",
+                "Reduced VRAM use by 63%, RAM use by 67%, and build size by 20% through profiling and optimization.",
+                "Coordinated Perforce repository structure, branching, Git-to-Perforce migration, and CI/CD setup; reviewed feature architecture and code."
+            ],
+            tools: "Unreal Engine 5, C++, Blueprints, Cesium ion, Perforce, Git, Mass Entity, Pixel Streaming"
+        },
+        {
+            title: "Gameplay Programmer",
+            company: "NextPlayerGames, USA (remote)",
+            date: "Oct 2024 - Oct 2025",
+            responsibilities: [
+                "Implemented replicated weapon mechanics, including ammo handling, hit detection, and recoil.",
+                "Developed replicated session management, player interactions, and real-time data synchronization.",
+                "Built multiplayer inventory, NPC replication, and AI-driven behaviors.",
+                "Created data-driven character customization using skeletal mesh merging."
+            ],
+            tools: "Unreal Engine 5, C++, Blueprints, Multiplayer Replication, Sessions, AI Perception, EQS, Epic Online Services"
         },
         {
             title: "Lead Game Programmer",
             company: "BuMo3DR, Chennai, India",
             date: "Nov 2021 - Jun 2024",
             responsibilities: [
-                "Led teams of 10+ programmers and designers on 5+ projects involving computer graphics and extended reality, ensuring timely delivery and high-quality outcomes.",
-                "Developed a 3D Lab Designer using Unreal Engine and C++, enabling real-time visualization of architectural plans across PC, AR, VR, and MR platforms, adopted by over 10 clients.",
-		"Engineered core systems for room creation, wall structures, traffic simulation, and lab automation. ",
-		"Integrated real-time ray tracing, Nanite, and advanced global illumination in collaboration with artists.",
-                "Engineered new tools and frameworks with C++, C#, and Python, enhancing product development efficiency by 30%.",
-                "Architected technical solutions for various projects, streamlining 3D pipeline workflows for technical artists, programmers, and designers.",
-                "Mentored more than 5 junior developers through weekly code reviews and monthly knowledge transfer sessions.",
-                "Conducted project development tracking and ensured timely product delivery of over 10+ projects."
-            ]
+                "Developed a data-driven 3D Lab Designer for real-time architectural visualization across multiple platforms.",
+                "Engineered room creation, wall structures, traffic simulation, and lab automation systems.",
+                "Created custom file formats and parsers for integration with industry-standard tools.",
+                "Integrated real-time ray tracing, Nanite, and advanced global illumination with artists.",
+                "Mentored junior developers and tracked project delivery."
+            ],
+            tools: "Unreal Engine 4 & 5, C++, C#, Python, Photon Networking, AWS SDK, CSG, Visio/DWG, AR, VR, HoloLens"
         },
         {
             title: "Senior Game Programmer",
             company: "BuMo3DR, Chennai, India",
             date: "May 2018 - Oct 2021",
             responsibilities: [
-                "Developed applications involving 3D computer graphics and XR for diverse industries, delivering 10+ projects that improved client productivity and engagement.",
-		"Designed and implemented data visualization applications, utilizing OGDF for advanced graph rendering.",
-                "Engineered VR and AR applications for product visualization, training, and simulation purposes.",
-                "Integrated ARKit, Vuforia, and MRTK, streamlining XR project development and reducing integration time by 20%, leading to faster deployment of features.",
-                "Wrote cross-platform core libraries and templates to improve code re-usability across projects by 50%.",
-                "Enhanced existing frameworks for better performance and functionality.",
-                "Collaborated with clients to customize solutions to their needs, resulting in a 30% increase in repeat business."
-            ]
+                "Created reusable cross-platform libraries and custom Unreal Engine and Unity plugins.",
+                "Built Photon multiplayer functionality for Unity and Unreal Engine.",
+                "Developed an iPad spectator mode and scene control app for VR events.",
+                "Designed data visualization applications using OGDF for graph rendering."
+            ],
+            tools: "Unreal Engine 4, Unity, C++, C#, Python, ARKit, Vuforia, MRTK, Photon Networking, OGDF"
         },
         {
             title: "3D Programmer",
             company: "BuMo3DR, Chennai, India",
             date: "Mar 2016 - Apr 2018",
             responsibilities: [
-                "Created 3D applications and games, focusing on graphics programming and optimization.",
-                "Implemented XR features for over 5 client projects.",
-                "Collaborated with a team of 2 to 4 members to improve existing codebases and develop new features."
-            ]
+                "Developed training and simulation modules for medical diagnostics equipment.",
+                "Implemented shaders, physics interactions, and real-time visualization techniques.",
+                "Improved UI and interactive environments."
+            ],
+            tools: "Unreal Engine 4, Unity, C++, C#, VR, MR"
         },
         {
             title: "Associate Software Engineer",
             company: "Electronic Arts, Hyderabad, India",
-            date: "Jun 2012 - Mar 2014",
+            date: "Mar 2012 - Apr 2014",
             responsibilities: [
-                "Worked in the iOS Live services team, focusing on the development and maintenance of over 10 mobile games.",
-                "Refined and maintained several in-house tools to improve development efficiency.",
-                "Enhanced features for existing EA mobile games including Battleship, Monopoly, Boggle, Need for Speed series, and Madden NFL, resulting in a 20% reduction in bug reports and fixing all reported bugs.",
-                "Expanded device compatibility and resolved critical issues such as multiplayer connection problems and performance bottlenecks.",
-                "Ported EA titles, including Sims, NFS Hot Pursuit, FIFA, Bejeweled, and The Simpsons, to over 100+ Java feature phones, ensuring compatibility and functionality"
-            ]
+                "Developed, maintained, and supported 10+ shipped iOS games, including Battleship, Monopoly, Boggle, Need for Speed, and Madden NFL.",
+                "Ported EA titles, including The Sims, Need for Speed, FIFA, Bejeweled, and The Simpsons, to Java phones.",
+                "Used EA's EAMT and Bedrock frameworks for cross-platform deployment."
+            ],
+            tools: "Java, Objective-C, C++, Python, EAMT, Bedrock"
         }
     ],
     projects: [
+        {
+            title: "Abu Dhabi & Dubai Digital Twins",
+            company: "Dbiz.ai",
+            date: "Nov 2025 - Present",
+            details: [
+                "Built data-driven level streaming for city-scale environments.",
+                "Led mass crowd simulation and created a procedural road authoring tool.",
+                "Profiled the environment and reduced VRAM use by 63%, RAM use by 67%, and build size by 20%."
+            ],
+            tools: "Unreal Engine 5, C++, Blueprints, Cesium ion, Mass Entity, Pixel Streaming"
+        },
+        {
+            title: "Multiplayer Gameplay Systems",
+            company: "NextPlayerGames",
+            date: "Oct 2024 - Oct 2025",
+            details: [
+                "Implemented replicated weapons, inventory, sessions, player interactions, and NPCs.",
+                "Built AI behaviors and data-driven character customization using skeletal mesh merging."
+            ],
+            tools: "Unreal Engine 5, C++, Blueprints, Epic Online Services, AI Perception, EQS"
+        },
          {
                 title: "3D Lab Designer",
 				company: "BuMo3DR",
@@ -237,7 +271,7 @@ const resumeData = {
             },
 			{
                 title: "Battleship(iPhone), Electronic Arts",
-				company: "BuMo3DR",
+				company: "Electronic Arts",
                 date: " ",
                 details: [
 					"Enhanced application performance and stability through optimization and bug fixing.",
@@ -314,20 +348,22 @@ const resumeData = {
             // Add more projects here...
     ],
     skills: [
-        "C++", "C#", "Python", "Unreal Engine", "Unity3D", "OpenGL", "DirectX",
-        "AR/VR/MR Development", "Game Development", "3D Graphics",
-        "Shader Programming", "Cross-platform Development"
+        "C++", "C#", "Objective-C", "Python", "Java", "Unreal Engine 4 & 5", "Unity",
+        "ARKit", "Vuforia", "MRTK", "Photon Networking", "Multiplayer Replication",
+        "Behavior Trees", "EQS", "Game Physics", "Multithreading", "Real-time Visualization",
+        "Data-driven Systems", "Profiling", "Git", "Perforce", "SVN", "Visual Studio",
+        "Android", "Oculus Rift S", "Mirage Solo", "iPad", "Magic Leap", "HoloLens 2", "Meta Quest 2"
     ],
     education: [
         {
             degree: "PG-Diploma Game Programming",
             institution: "ICAT, Chennai",
-            date: "June 2011 - May 2012"
+            date: "2011 - 2012"
         },
         {
             degree: "B-Tech Electronics & Communication",
             institution: "College Of Engineering, Trivandrum",
-            date: "June 2006 - April 2010"
+            date: "2006 - 2010"
         }
     ]
 };
@@ -338,13 +374,14 @@ function generateHeader() {
     header.innerHTML = `
         <h1>${resumeData.header.name}</h1>
         <p>${resumeData.header.title}</p>
+        <p class="contact-links"><a href="mailto:${resumeData.header.email}">${resumeData.header.email}</a><a href="tel:+917358437317">${resumeData.header.phone}</a><a href="https://github.com/joseph-programmer" target="_blank" rel="noopener noreferrer">GitHub</a></p>
     `;
 }
 
 // Function to generate HTML for summary
 function generateSummary() {
     const summarySection = document.getElementById('summary');
-    summarySection.innerHTML = `<p>${resumeData.summary}</p>`;
+    summarySection.innerHTML = `<h2>Summary</h2><p>${resumeData.summary}</p>`;
 }
 
 // Function to generate HTML for experience
@@ -356,10 +393,11 @@ function generateExperience() {
         experienceHTML += `
             <div class="job">
                 <h3>${job.title}</h3>
-                <p><em>${job.company}</em><span style="float: right;">${job.date}</span></p>
+                <p class="job-meta"><em>${job.company}</em><span>${job.date}</span></p>
                 <ul>
                     ${job.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
                 </ul>
+                ${job.tools ? `<p class="job-tools"><strong>Tools &amp; tech:</strong> ${job.tools}</p>` : ''}
             </div>
         `;
     });
@@ -383,7 +421,7 @@ function generateProjects() {
                         ${project.company ? `${project.company} | ` : ''}${project.date || ''}
                     </p>
                 </div>
-                <button class="project-toggle" onclick="toggleProject(${index})">+</button>
+                <button class="project-toggle" type="button" aria-label="Show details for ${project.title}" aria-controls="project-${index}" aria-expanded="false" onclick="toggleProject(${index})">+</button>
             </div>
             <div class="project-details" id="project-${index}">
                 <div class="project-details-content">
@@ -440,6 +478,7 @@ function toggleProject(index) {
     
     projectDetails.classList.toggle('active');
     projectToggle.classList.toggle('active');
+    projectToggle.setAttribute('aria-expanded', String(projectDetails.classList.contains('active')));
     
     if (projectDetails.classList.contains('active')) {
         projectToggle.textContent = '−';
@@ -463,40 +502,6 @@ document.getElementById("back-to-top").onclick = function(e) {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 };
-
-// Smooth scrolling for navigation links
-document.querySelectorAll('a.nav-link').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        window.scrollTo({
-            top: targetElement.offsetTop - 70,
-            behavior: 'smooth'
-        });
-    });
-});
-
-// Highlight active section in navigation
-window.addEventListener('scroll', () => {
-    let current = '';
-    const sections = document.querySelectorAll('section');
-    const navHeight = document.querySelector('nav').offsetHeight;
-
-    sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        if (pageYOffset >= sectionTop - navHeight) {
-            current = section.getAttribute('id');
-        }
-    });
-
-    document.querySelectorAll('.nav-link').forEach((link) => {
-        link.classList.remove('active');
-        if (link.getAttribute('href').substring(1) === current) {
-            link.classList.add('active');
-        }
-    });
-});
 
 // Change navigation style on scroll
 window.addEventListener('scroll', () => {
@@ -544,6 +549,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (navLinksContainer.classList.contains('active')) {
                 navLinksContainer.classList.remove('active');
                 menuToggle.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
             }
         });
     });
@@ -578,6 +584,7 @@ document.addEventListener('DOMContentLoaded', () => {
     menuToggle.addEventListener('click', () => {
         navLinksContainer.classList.toggle('active');
         menuToggle.classList.toggle('active');
+        menuToggle.setAttribute('aria-expanded', String(navLinksContainer.classList.contains('active')));
     });
 
     // Close mobile menu when clicking outside
@@ -585,6 +592,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!navLinksContainer.contains(e.target) && !menuToggle.contains(e.target)) {
             navLinksContainer.classList.remove('active');
             menuToggle.classList.remove('active');
+            menuToggle.setAttribute('aria-expanded', 'false');
         }
     });
 });
