@@ -13,12 +13,12 @@ const resumeData = {
             company: "Dbiz.ai, Kochi",
             date: "Nov 2025 - Present",
             responsibilities: [
-                "Built a data-driven level streaming framework using data assets, so new sectors can be added without code changes.",
-                "Implemented level streaming for Abu Dhabi and Dubai digital twins and led mass crowd simulation for city-scale scenes.",
-                "Created a procedural road tool in Unreal Engine 5 for infrastructure and environment authoring.",
-                "Created collision creation, level optimization, mesh decimation, and mesh instancing tools.",
-                "Reduced VRAM use by 63%, RAM use by 67%, and build size by 20% through profiling and optimization.",
-                "Coordinated Perforce repository structure, branching, Git-to-Perforce migration, and CI/CD setup; reviewed feature architecture and code."
+                "Designed a data-driven level streaming framework with data assets, allowing new sectors to be added without code changes.",
+                "Implemented streaming for the Abu Dhabi and Dubai digital twins and led mass crowd simulation across city-scale scenes.",
+                "Developed a procedural road authoring tool alongside utilities for collision creation and level optimization.",
+                "Engineered mesh decimation and instancing tools for large-scale environments.",
+                "Profiled resource use, reducing VRAM by 63%, RAM by 67%, and build size by 20%.",
+                "Coordinated Perforce structure, branching, Git-to-Perforce migration, and CI/CD setup while reviewing feature architecture and code."
             ],
             tools: "Unreal Engine 5, C++, Blueprints, Cesium ion, Perforce, Git, Mass Entity, Pixel Streaming"
         },
@@ -91,11 +91,11 @@ const resumeData = {
                 "Built a data-driven level streaming framework with data assets, allowing new streaming sectors to be added without code changes.",
                 "Implemented level streaming for Abu Dhabi and Dubai digital twin environments to improve traversal across city-scale assets.",
                 "Led mass crowd simulation for city-scale scenes, including population density, movement, and traffic behavior.",
-                "Created a procedural road tool in Unreal Engine 5 to speed up infrastructure and environment authoring.",
-                "Created a collision creation tool.",
-                "Created a level optimization tool.",
-                "Created a mesh decimation tool.",
-                "Created a mesh instancing tool.",
+                "Developed a procedural road tool in Unreal Engine 5 to speed up infrastructure and environment authoring.",
+                "Designed a collision creation tool for scene assets.",
+                "Built a level optimization tool to support performance work.",
+                "Implemented a mesh decimator to reduce geometry complexity.",
+                "Engineered a mesh instancing tool for repeated assets.",
                 "Profiled and optimized resource usage, reducing VRAM by 63%, RAM by 67%, and build size by 20%.",
                 "Coordinated Perforce repository structure, branching strategy, Git-to-Perforce migration, and CI/CD setup with architecture and DevOps teams.",
                 "Designed feature architecture and reviewed code for quality, consistency, and alignment with project standards."
